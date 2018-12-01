@@ -1,0 +1,5 @@
+com\mk\organization\controllers\OrganizationServiceController.class
+com\mk\organization\services\OrganizationService.class
+com\mk\organization\Application.class
+com\mk\organization\repository\OrganizationRepository.class
+com\mk\organization\model\Organization.class
