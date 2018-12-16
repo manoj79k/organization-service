@@ -3,6 +3,7 @@ package com.mk.organization.controllers;
 
 import com.mk.organization.model.Organization;
 import com.mk.organization.services.OrganizationService;
+import com.mk.organization.utils.UserContextHolder;
 
 import java.util.List;
 
@@ -24,7 +25,8 @@ public class OrganizationServiceController {
 
     @RequestMapping(value="/{organizationId}",method = RequestMethod.GET)
     public Organization getOrganization( @PathVariable("organizationId") String organizationId) {
-    	System.out.println("===================calling organizations service");
+    	System.out.println("===================calling organizations service:UserContextHolder.getContext().getCorrelationId():: "+UserContextHolder.getContext().getCorrelationId());
+    	
     	return orgService.getOrg(organizationId);
     }
     

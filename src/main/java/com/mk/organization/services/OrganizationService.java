@@ -17,7 +17,7 @@ public class OrganizationService {
 
     public Organization getOrg(String organizationId) {
     	System.out.println("OrganizationService server call start");
-    	randomlyRunLong();
+    	//randomlyRunLong();
     	System.out.println("OrganizationService server call end");
     	return orgRepository.findById(organizationId);
     }
