@@ -16,10 +16,13 @@ public class OrganizationService {
     private OrganizationRepository orgRepository;
 
     public Organization getOrg(String organizationId) {
-    	System.out.println("OrganizationService server call start");
+    	System.out.println("OrganizationService old server call start");
+    	Organization organization=null;
     	//randomlyRunLong();
-    	System.out.println("OrganizationService server call end");
-    	return orgRepository.findById(organizationId);
+    	System.out.println("OrganizationService old server call end");
+    	organization=orgRepository.findById(organizationId);
+    	organization.setContactName("OLD::"+organization.getContactName());
+    	return organization;
     }
     
     public List<Organization> getOrgs() {
