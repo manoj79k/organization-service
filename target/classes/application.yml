@@ -1,4 +1,9 @@
 
+security:
+  oauth2:
+    resource:
+       userInfoUri: http://localhost:8881/auth/user
+       
 eureka:
   instance:
     preferIpAddress: true

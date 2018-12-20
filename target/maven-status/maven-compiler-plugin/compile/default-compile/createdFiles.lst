@@ -1,9 +1,10 @@
 com\mk\organization\controllers\OrganizationServiceController.class
-com\mk\organization\utils\UserContextInterceptor.class
 com\mk\organization\services\OrganizationService.class
 com\mk\organization\Application.class
 com\mk\organization\utils\UserContextFilter.class
 com\mk\organization\repository\OrganizationRepository.class
+com\mk\organization\security\ResourceServerConfiguration.class
+com\mk\organization\utils\UserContextInterceptor.class
 com\mk\organization\model\Organization.class
 com\mk\organization\utils\UserContext.class
 com\mk\organization\utils\UserContextHolder.class

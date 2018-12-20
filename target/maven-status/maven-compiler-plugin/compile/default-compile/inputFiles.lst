@@ -5,5 +5,6 @@ C:\Users\test\springaction\spmia-chapter4-master\organization-service\src\main\j
 C:\Users\test\springaction\spmia-chapter4-master\organization-service\src\main\java\com\mk\organization\repository\OrganizationRepository.java
 C:\Users\test\springaction\spmia-chapter4-master\organization-service\src\main\java\com\mk\organization\controllers\OrganizationServiceController.java
 C:\Users\test\springaction\spmia-chapter4-master\organization-service\src\main\java\com\mk\organization\utils\UserContextHolder.java
+C:\Users\test\springaction\spmia-chapter4-master\organization-service\src\main\java\com\mk\organization\security\ResourceServerConfiguration.java
 C:\Users\test\springaction\spmia-chapter4-master\organization-service\src\main\java\com\mk\organization\utils\UserContextFilter.java
 C:\Users\test\springaction\spmia-chapter4-master\organization-service\src\main\java\com\mk\organization\services\OrganizationService.java
